@@ -1,8 +1,8 @@
 site_name: Reach RTK docs
 site_url: https://emlid.com/reach/
 docs_dir: docs/reach/rtk
-copyright: "Emlid.com"
-edit_uri: ""
+copyright: 'Emlid.com'
+edit_uri: ''
 extra_css:
     - 'assets/stylesheets/extra.css?v=3'
 
@@ -80,3 +80,20 @@ nav:
   - GPS post-processing: common/tutorials/gps-post-processing.md
   - Analyzing PPK solution and logs: common/tutorials/analyzing-logs.md
   - Bluetooth output and Android mock location: common/tutorials/mock-location.md
+model: RTK
+power_port: DF13
+kit:
+        - '2x Reach RTK module'
+        - '2x Tallysman TW4721 antenna with adhesive mount'
+        - '2x DF13 <-> DF13 straight cable'
+        - '2x DF13 <-> jumper wires cable'
+        - '2x Micro-USB <-> USB cable'
+        - '2x Micro-USB <-> USB-F OTG cable'
+standalone:
+        - 'Reach RTK module'
+        - 'DF13 <-> DF13 straight cable'
+        - 'DF13 <-> jumper wires cable'
+        - 'Micro-USB <-> USB cable'
+        - 'Micro-USB <-> USB-F OTG cable'
+templates:
+         power-supply.md: 'power-supply.mdx'

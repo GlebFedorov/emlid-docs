@@ -1,8 +1,8 @@
 site_name: Reach RS/RS+ docs
 site_url: https://emlid.com/reachrs/
 docs_dir: docs/reach/rs
-copyright: "Emlid.com"
-edit_uri: ""
+copyright: 'Emlid.com'
+edit_uri: ''
 extra_css:
     - 'assets/stylesheets/extra.css?v=3'
 
@@ -89,3 +89,15 @@ nav:
     - Microsurvey FieldGenius setup guide: common/tutorials/fieldgenius.md
     - Carlson SurvCE/SurvPC setup guide: common/tutorials/survce.md
     - Topcon MAGNET Field Layout setup guide: common/tutorials/magnetfield.md
+model: 'RS/RS+'
+model_path: reachrs
+usb: 'Micro-USB'
+kit:
+    - '* 1 x Reach receiver'
+    - '* 1 x Carry case'
+    - '* 1 x Radio antenna'
+    - '* 1 x Adapter for survey pole ( 5/8 )'
+    - '* 1 x USB cable'
+templates:
+    index.md: 'index.mdx'
+    power-supply.md: 'power-supply-rs.mdx'
